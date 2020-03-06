@@ -1,0 +1,9 @@
+print("proszę wpisać wiek ")
+wiek = input()
+
+if int(wiek) > 18:
+    print("jesteś dorosły")
+elif int(wiek) < 12:
+    print("jesteś dzieckiem")
+else:
+    print("jesteś mlodzieżą")

@@ -1,0 +1,7 @@
+o = 100
+wynik = 100 * 1.1 ** 7
+pi_string = "3.1415926"
+
+print("Miałem " + str(o) + " PLN a teraz mam" + str(wynik) + " PLN SUPER!")
+pi_float = float(pi_string)
+print("Liczba PI to " + str(pi_string) + " SUPER!")

@@ -1,0 +1,5 @@
+opis = "to jest opis"
+warto_klamac = False
+
+print(opis)
+print(warto_klamac)

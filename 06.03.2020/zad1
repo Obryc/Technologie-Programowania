@@ -1,0 +1,7 @@
+oszczednosci = 100
+oprocentowanie = 1.1
+czas = 10
+
+pieniadz= oszczednosci*oprocentowanie*czas
+
+print(pieniadz)

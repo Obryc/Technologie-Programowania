@@ -1,0 +1,8 @@
+oszczednosci = 100
+oprocentowanie = 1.1
+napis = "ala ma kota"
+
+wynik = oszczednosci*oprocentowanie
+print(wynik)
+wynik2=napis+napis
+print(wynik2)
