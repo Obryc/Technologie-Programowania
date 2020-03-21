@@ -12,7 +12,8 @@ class odcinek:
 
 
     def dystans(self):
-        dyst = math.sqrt((self.x2 - self.x1) ** 2 + (self.y2 - self.y1) ** 2)
-        print("dystans wynosi: ", dyst)
+        dist = math.sqrt((int(self.x2) - int(self.x1)) ** 2 + (int(self.y2) - int(self.y1)) ** 2)
+        print(dist)
+
 pr = odcinek()
 pr.dystans()
