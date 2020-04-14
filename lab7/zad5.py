@@ -46,12 +46,12 @@ class przeliczanie(QDialog):
         
     def plnUsd(self):
         p = self.SpinBox1.value()
-        h = self.SpinBox2.value()
+        h = p/self.SpinBox2.value()
         self.walutaLabel.setText('w dolarach wynosi: {0:.2f}'.format(h))
         
     def usdPln(self):
         p = self.SpinBox1.value()
-        h = self.SpinBox2.value()
+        h = p*self.SpinBox2.value()
         self.walutaLabel.setText('w złotych wynosi: {0:.2f}'.format(h))
     
 
